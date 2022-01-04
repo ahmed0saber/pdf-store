@@ -6,111 +6,10 @@
         <link href='https://fonts.googleapis.com/css?family=Bree Serif' rel='stylesheet'>
     </head>
     <body>
+        <div>
+            <a class="btn" href="./programming.html">Back</a>
+        </div>
         <p><b>C# Projects</b></p>
-        <p class="question">1) Write a C# program to print Hello World.</p>
-        <p class="hint">Expected Output: Hello World</p>
-        <pre class="answer">using System;
-namespace HelloWorld
-{
-    public class MyProgram
-    {
-        public static void Main()
-        {
-            Console.WriteLine("Hello World");
-        }
-    }
-}
-        </pre>
-
-        <p class="question">2) Write a C# program to ask the user about his/her name, store it in a variable, then print Hello User.</p>
-        <p class="hint">Sample Input: Ahmed Saber</p>
-        <p class="hint">Expected Output: Hello Ahmed Saber</p>
-        <pre class="answer">using System;
-namespace HelloUser
-{
-    public class MyProgram
-    {
-        public static void Main()
-        {
-            string name;
-            Console.Write("Enter your name: ");
-            name = Console.ReadLine();
-            Console.WriteLine("Hello " + name);
-        }
-    }
-}
-        </pre>
-
-        <p class="question">3) Write a C# program to print the sum of two numbers.</p>
-        <pre class="answer">using System;
-namespace SumOfTwoNumbers
-{
-    public class MyProgram
-    {
-        public static void Main()
-        {
-            Console.Write(4+6);
-        }
-    }
-}
-        </pre>
-
-        <p class="question">4) Write a C# program to print the sum of two variables.</p>
-        <pre class="answer">using System;
-namespace SumOfTwoVariables
-{
-    public class MyProgram
-    {
-        public static void Main()
-        {
-            int x=21, y=24;
-            Console.Write(x+y);
-        }
-    }
-}
-        </pre>
-
-        <p class="question">5) Write a C# program to ask the user for entering 2 integers, store them in 2 variables, then print their sum.</p>
-        <p class="hint">Sample Input: 5 20</p>
-        <p class="hint">Expected Output: Result = 25</p>
-        <pre class="answer">Answer is not available, Do it yourself.</pre>
-
-        <p class="question">6) Write a C# program to ask the user about his/her birth year, store it in a variable, then calculate his/her age and print it.</p>
-        <p class="hint">Sample Input: 2001</p>
-        <p class="hint">Expected Output: Your age is 20</p>
-        <pre class="answer">Answer is not available, Do it yourself.</pre>
-
-        <p class="question">7) Write a C# program to check if a number entered by user, is even or odd.</p>
-        <p class="hint">Sample Input: 15</p>
-        <p class="hint">Expected Output: Number 15 is an odd number.</p>
-        <pre class="answer">using System;
-namespace EvenOrOdd
-{
-    public class MyProgram
-    {
-        public static void Main()
-        {
-            int x;
-            Console.Write("Enter a number: ");
-            x=Convert.ToInt32(Console.ReadLine());
-            if(x%2==0){
-                Console.Write($"Number {x} is an even number.");
-            }
-            else{
-                Console.Write($"Number {x} is an odd number.");
-            }
-        }
-    }
-}
-        </pre>
-
-        <p class="question">8) Write a C# program to ask the user about his/her username, store it in a variable, then check if it equals ahmed0saber. If true, print Logged in Successfully. If false, print Failed.</p>
-        <p class="hint">Sample Input 1: ahmed0saber</p>
-        <p class="hint">Expected Output 1: Logged in Successfully</p>
-        <p class="hint">Sample Input 2: wrongName</p>
-        <p class="hint">Expected Output 2: Failed</p>
-        <pre class="answer">Answer is not available, Do it yourself.</pre>
-
         <pre>Console output and user input
     1. Write a C# program to print Hello World in two lines.
     2. Write a C# program to print the concatenation of two strings.
@@ -160,4 +59,5 @@ Built-in methods
         <a href="https://www.w3schools.com/cs/cs_examples.php" target="_blank">Examples</a>
         <a href="https://www.w3schools.com/cs/exercise.php?filename=exercise_syntax1" target="_blank">Exercises</a>
     </body>
+    <script src="./script.js"></script>
 </html>

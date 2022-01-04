@@ -1,0 +1,52 @@
+[
+    [
+        {
+            "id": "0",
+            "pri": "#DC143C",
+            "sec": "#fbb",
+            "font": "#DC143Caa"
+        },
+        {
+            "id": "1",
+            "pri": "#dd4301",
+            "sec": "#fdb",
+            "font": "#FF4301aa"
+        },
+        {
+            "id": "2",
+            "pri": "#b88216",
+            "sec": "#fea",
+            "font": "#D89216aa"
+        },
+        {
+            "id": "3",
+            "pri": "#77a119",
+            "sec": "#cfb",
+            "font": "#A7D129aa"
+        },
+        {
+            "id": "4",
+            "pri": "#039481",
+            "sec": "#aee",
+            "font": "#03C4A1aa"
+        },
+        {
+            "id": "5",
+            "pri": "#dD265E",
+            "sec": "#fbd",
+            "font": "#FD367Eaa"
+        },
+        {
+            "id": "6",
+            "pri": "#a400a6",
+            "sec": "#fbf",
+            "font": "#C400C6aa"
+        },
+        {
+            "id": "6",
+            "pri": "#1212a8",
+            "sec": "#bbf",
+            "font": "#C400C6aa"
+        }
+    ]
+]
