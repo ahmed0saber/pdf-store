@@ -1,8 +1,9 @@
-:root {--pri: #DC143C;--sec: #EC244C;--font: #DC143Caa;}
+:root {--pri: #f7f7f7;--sec: #f7f7f7;--font: #DC143Caa;}
 *{
     padding:0;
     margin:0;
     font-family: "Bree Serif", sans-serif;
+    transition-duration: 0.3s;
 }
 body{
     background-color: var(--sec);
